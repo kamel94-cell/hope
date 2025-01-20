@@ -1,0 +1,318 @@
+/* Resetowanie stylów */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom, #1e3c72, #2a5298);
+    color: white;
+    line-height: 1.6;
+}
+
+/* Sekcja Hero */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cta-button {
+    background: #ffd700;
+    color: #1e3c72;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.cta-button.secondary {
+    background: transparent;
+    border: 2px solid #ffd700;
+    color: #ffd700;
+}
+
+.cta-button:hover {
+    background: #e6b800;
+}
+
+/* Sekcja O projekcie */
+.about {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.about p {
+    max-width: 800px;
+    margin: 0 auto 40px;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.feature {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.feature h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* Sekcja Tokenomics */
+.tokenomics {
+    background: #2a5298;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.tokenomics h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.tokenomics-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.tokenomics-item {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.tokenomics-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* Sekcja Akcje charytatywne */
+.charity {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.charity h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.charity p {
+    max-width: 800px;
+    margin: 0 auto 40px;
+}
+
+.charity-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.charity-item {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.charity-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* Sekcja Cotygodniowe losowanie */
+.lottery {
+    background: #2a5298;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.lottery h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.lottery p {
+    max-width: 800px;
+    margin: 0 auto 40px;
+}
+
+.lottery-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.lottery-form input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.lottery-form button {
+    width: 100%;
+    padding: 15px;
+    background: #ffd700;
+    color: #1e3c72;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.lottery-form button:hover {
+    background: #e6b800;
+}
+
+/* Sekcja Dołącz do społeczności */
+.community {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.community h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.community p {
+    max-width: 800px;
+    margin: 0 auto 40px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-link {
+    font-size: 2rem;
+    color: #ffd700;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-link:hover {
+    color: #e6b800;
+}
+
+/* Sekcja Historia sukcesu */
+.success-stories {
+    background: #2a5298;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.success-stories h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.stories-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.story {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Sekcja FAQ */
+.faq {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.faq h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.faq-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.faq-item {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.faq-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* Stopka */
+.footer {
+    background: #1e3c72;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer p {
+    margin-bottom: 10px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-links a {
+    color: #ffd700;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #e6b800;
+}
